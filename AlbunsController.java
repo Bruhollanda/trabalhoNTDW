@@ -1,10 +1,10 @@
-package br.com.iteris.universidade.olamundo.controller;
+package olamundo.controller;
 
-import br.com.iteris.universidade.olamundo.domain.dto.AlbumCreateRequest;
-import br.com.iteris.universidade.olamundo.domain.dto.AlbumFilterRequest;
-import br.com.iteris.universidade.olamundo.domain.dto.AlbumResponse;
-import br.com.iteris.universidade.olamundo.domain.dto.AlbumUpdateRequest;
-import br.com.iteris.universidade.olamundo.service.AlbunsService;
+import olamundo.domain.dto.AlbumCreateRequest;
+import olamundo.domain.dto.AlbumFilterRequest;
+import olamundo.domain.dto.AlbumResponse;
+import domain.dto.AlbumUpdateRequest;
+import service.AlbunsService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
